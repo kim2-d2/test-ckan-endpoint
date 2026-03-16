@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rdf:RDF xmlns:schema="http://schema.org/" xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <dcat:Catalog>
+        <dcat:dataset>
+            <dcat:Dataset>
+                <dct:identifier>test1@kim-organisation</dct:identifier>
+                <dct:title xml:lang="de">Test 1</dct:title>
+                <dct:description xml:lang="de">Übersicht über den Bauzonenstand und den Bauzonenverbrauch im Kanton Zürich anhand der Indikatoren Bauzonen, Bauzonenverbrauch und Überbauungsgrad. Es werden Daten auf Stufe Gemeinde, Planungsregion und für den Kanton Zürich als Ganzes bereitgestellt. Die jährliche Nachführung des Überbauungs- und Erschliessungsstands durch die Gemeinden im Kanton Zürich stellt die Datengrundlage der Bauzonenstatistik dar. Die Koordination der Nachführung, der Datenzusammenzug, die Datenauswertung und die Datenaufbereitung übernimmt das Amt für Raumentwicklung des Kanton Zürich. Eine weitere Quelle ist der ÖREB-Kataster, aus dem die Nutzungszonen verwendet werden. Aus technischen Gründen können die Daten in den CSV-Dateien erst ab 1996 oder später bereitgestellt werden.</dct:description>
+                <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-17T15:12:07.424077+01:00</dct:modified>
+                <dct:publisher>
+                <foaf:Organization>
+                    <foaf:name>Amt für Raumentwicklung des Kantons Zürich</foaf:name>
+                </foaf:Organization>
+                </dct:publisher>
+                <dcat:contactPoint>
+                    <vcard:Organization>
+                        <vcard:fn>Amt für Raumentwicklung des Kantons Zürich, Raumplanung</vcard:fn>
+                        <vcard:hasEmail rdf:resource="mailto:raumbeobachtung@bd.zh.ch"/>
+                    </vcard:Organization>
+                </dcat:contactPoint>
+                <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+                <dct:language>de</dct:language>
+                <dct:relation>
+                    <rdf:Description rdf:about="https://openzh.github.io/starter-code-openZH/">
+                        <rdfs:label>Vorbereiteter Code in R oder Python für jedes Dataset mit csv-Datei(en)</rdfs:label>
+                    </rdf:Description>
+                </dct:relation>
+                <dcat:keyword xml:lang="de">bauzonen</dcat:keyword>
+                <dcat:keyword xml:lang="de">raumentwicklung</dcat:keyword>
+                <dct:temporal>
+                    <dct:PeriodOfTime>
+                        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</schema:startDate>
+                    </dct:PeriodOfTime>
+                </dct:temporal>
+                <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/YEARLY"/>
+                <rdfs:seeAlso>1802@are-kanton-zuerich</rdfs:seeAlso>
+                <rdfs:seeAlso>2622@are-kanton-zuerich</rdfs:seeAlso>
+                <rdfs:seeAlso>2982@statistisches-amt-kanton-zuerich</rdfs:seeAlso>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Überbauungsgrad ab 1991 in %</dct:title>
+                        <dct:description xml:lang="de">Überbaute Bauzone in % der Bauzone. Es wird in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten unterschieden. 0-Werte bedeuten, dass für die betreffende Gemeinde oder Stadt keine Flächen in der entsprechenden Zonenkategorie im Zonenplan festgelegt sind. Die Spalte &quot;ARPNR&quot; ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte &quot;BFSNR&quot; neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002158.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002158.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>670198</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Bauzonenverbrauch ab 1991 in ha</dct:title>
+                        <dct:description xml:lang="de">Bauzonenverbrauch im Kanton Zürich, unterteilt in 1-, 5- und 15-Jahres-Verbrauch. Es wird in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten unterschieden. Die Spalte &quot;ARPNR&quot; ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte &quot;BFSNR&quot; neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002159.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002159.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>941334</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Bauzonen gruppiert grob ab 1991 in ha</dct:title>
+                        <dct:description xml:lang="de">Überbaute und unüberbaute Bauzone, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Die Spalte &quot;ARPNR&quot; ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte &quot;BFSNR&quot; neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002160.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002160.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>1147293</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Bauzonen gruppiert fein ab 1991 in ha</dct:title>
+                        <dct:description xml:lang="de">Überbaute und nicht überbaute Bauzone, unterteilt in Wohnzone, Kernzone, Zentrumszone, Wohnzone mit Gewerbeerleichterung, Arbeitszone ohne Dienstleistungen, Arbeitszone mit Dienstleistungen sowie Zone für öffentliche Bauten. Die Spalte &quot;ARPNR&quot; ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte &quot;BFSNR&quot; neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002161.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002161.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>1845842</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Überbauungsgrad ab 1996 in %</dct:title>
+                        <dct:description xml:lang="de">Überbaute Bauzone in % der Bauzone. Es wird in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten unterschieden. NULL-Werte bedeuten, dass für die betreffende Gemeinde oder Stadt keine Flächen in der entsprechenden Zonenkategorie im Zonenplan festgelegt sind. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich. Es können keine Totale aus den Werten gerechnet werden.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002162.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002162.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>299977</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Bauzonenverbrauch ab 1996 in ha</dct:title>
+                        <dct:description xml:lang="de">Bauzonenverbrauch im Kanton Zürich, unterteilt in 1-, 5- und 15-Jahres-Verbrauch. Es wird in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten unterschieden. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden.  Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-29T00:00:00+01:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002163.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002163.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>397977</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Bauzonen gruppiert grob ab 1996 in ha</dct:title>
+                        <dct:description xml:lang="de">Überbaute und unüberbaute Bauzone, unterteilt in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002165.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002165.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>368049</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Bauzonen gruppiert fein ab 2005 in ha</dct:title>
+                        <dct:description xml:lang="de">Überbaute und nicht überbaute Bauzone, unterteilt in Wohnzone, Kernzone, Zentrumszone, Wohnzone mit Gewerbeerleichterung, Arbeitszone ohne Dienstleistungen, Arbeitszone mit Dienstleistungen sowie Zone für öffentliche Bauten. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002166.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002166.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>321649</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+            </dcat:Dataset>
+        </dcat:dataset>
+        <dcat:dataset>
+            <dcat:Dataset>
+                <dct:identifier>test2@kim-organisation</dct:identifier>
+                <dct:title xml:lang="de">Test 2</dct:title>
+                <dct:description xml:lang="de">Übersicht über den Stand der Geschossflächen im Kanton Zürich. Die Geschossflächendefinition lehnt sich an die Definition der Geschossfläche GF gemäss SIA und der anrechenbaren Geschossfläche gemäss Planungs- und Baugesetz (PBG) an. Es werden Daten auf Stufe Gemeinde, Planungsregion und für den Kanton Zürich als Ganzes bereitgestellt. Die Erhebung der Geschossflächen leitet sich indirekt aus gesetzlichen Vorgaben von Bund und Kanton ab. Der Zweck der Erhebung der Geschossflächenreserven ist, aufzuzeigen, welches Verdichtungspotential rechnerisch in Form von Geschossflächen in der Bauzone theoretisch vorhanden ist. Demgegenüber soll mit dem Geschossflächenbestand quantifiziert werden, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Ab 2021 wird ein neues Berechnungsmodell angewendet, daher sind die Werte mit den Vorjahren nur schwer vergleichbar. Für 2020 wurden aus technischen Gründen keine Daten erhoben. Datenquellen sind die Nutzungszonen gemäss ÖREB-Kataster des Kantons Zürich, das Gebäude- und Wohnregister (GWR) des Bundesamts für Statistik (BFS), Daten der Gebäudeversicherung des Kantons Zürich (GVZ), der Solarkataster (SOLKAT) des Bundesamts für Energie (BFE), der Überbauungs -und Erschliessungsstand (UbEs) des Amtes für Raumentwicklung des Kantons Zürich und Laserscanning-Punktwolken (LiDAR).</dct:description>
+                <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-17T15:11:38.922926+01:00</dct:modified>
+                <dct:publisher>
+                <foaf:Organization>
+                    <foaf:name>Amt für Raumentwicklung des Kantons Zürich</foaf:name>
+                </foaf:Organization>
+                </dct:publisher>
+                <dcat:contactPoint>
+                    <vcard:Organization>
+                        <vcard:fn>Amt für Raumentwicklung des Kantons Zürich, Raumplanung</vcard:fn>
+                        <vcard:hasEmail rdf:resource="mailto:raumbeobachtung@bd.zh.ch"/>
+                    </vcard:Organization>
+                </dcat:contactPoint>
+                <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+                <dct:language>de</dct:language>
+                <dct:relation>
+                    <rdf:Description rdf:about="https://www.zh.ch/de/planen-bauen/raumplanung/raumbeobachtung.html#-1201095156">
+                        <rdfs:label>Geschossflächen im Kanton Zürich</rdfs:label>
+                    </rdf:Description>
+                </dct:relation>
+                <dct:relation>
+                    <rdf:Description rdf:about="https://openzh.github.io/starter-code-openZH/">
+                        <rdfs:label>Vorbereiteter Code in R oder Python für jedes Dataset mit csv-Datei(en)</rdfs:label>
+                    </rdf:Description>
+                </dct:relation>
+                <dcat:keyword xml:lang="de">raumplanungsregionen</dcat:keyword>
+                <dcat:keyword xml:lang="de">raumentwicklung</dcat:keyword>
+                <dcat:keyword xml:lang="de">gemeinden</dcat:keyword>
+                <dcat:keyword xml:lang="de">geschossflaeche</dcat:keyword>
+                <dct:temporal>
+                    <dct:PeriodOfTime>
+                        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-01-01</schema:startDate>
+                    </dct:PeriodOfTime>
+                </dct:temporal>
+                <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/YEARLY"/>
+                <rdfs:seeAlso>1120@are-kanton-zuerich</rdfs:seeAlso>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenreserven ab 2021 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Die Geschossflächenreserven zeigen das theoretische Potential an Geschossfläche auf, welches rechnerisch realisiert werden kann. Die Reserven werden in Wohnzonen, Mischzonen und Arbeitszonen unterteilt und zusätzlich in überbaute und nicht überbaute Bauzonen. Die Spalte «ARPNR» ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte «BFSNR» neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt. Allfällige Ausnützungsboni aus den Bau- und Zonenordnungen für die Wohn-, Gewerbe- und Zentrumszonen sind in der Berechnung für das Jahr 2021 berücksichtigt, für die Jahre 2022 und folgende jedoch nicht mehr.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003322.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003322.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>129651</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenreserven ab 2021 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Die Geschossflächenreserven zeigen das theoretische Potential an Geschossfläche auf, welches rechnerisch realisiert werden kann. Die Reserven werden in Wohnzonen, Mischzonen und Arbeitszonen unterteilt und zusätzlich in überbaute und nicht überbaute Bauzonen. Mit der Spalte  «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt. Allfällige Ausnützungsboni aus den Bau- und Zonenordnungen für die Wohn-, Gewerbe- und Zentrumszonen sind in der Berechnung für das Jahr 2021 berücksichtigt, für die Jahre 2022 und folgende jedoch nicht mehr.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003323.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003323.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>46598</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Ausbaugrad ab 2021 in %</dct:title>
+                        <dct:description xml:lang="de">Der Ausbaugrad gibt an, wie viel Prozent der zulässigen Geschossfläche innerhalb der überbauten Bauzone bereits bebaut wurde. Es wird zwischen Wohnzone, Mischzone und Arbeitszone unterschieden. Die Spalte «ARPNR» ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte «BFSNR» neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Es können keine Totale aus den Werten gerechnet werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003324.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003324.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>436101</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Ausbaugrad ab 2021 in %</dct:title>
+                        <dct:description xml:lang="de">Der Ausbaugrad gibt an, wie viel Prozent der zulässigen Geschossfläche innerhalb der überbauten Bauzone bereits bebaut wurde. Es wird zwischen Wohnzone, Mischzone und Arbeitszone unterschieden. Mit der Spalte «GEO_LEVEL_LEVEL»&quot; können im Vergleich zur Spalte &quot;BFS_NR&quot; neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifizieren werden. Es können keine Totale aus den Werten gerechnet werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003325.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003325.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>35441</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenbestand ab 2021 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Der Geschossflächenbestand gibt an, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Es wird unterschieden in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Die Spalte «ARPNR» ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte «BFSNR» neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003320.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003320.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>65805</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenbestand ab 2021 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Der Geschossflächenbestand gibt an, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Es wird unterschieden in Wohnzone, Mischzone, Arbeitszone und Zone für öffentliche Bauten. Mit der Spalte «GEO_LEVEL_LEVEL»&quot; können im Vergleich zur Spalte &quot;BFS_NR&quot; neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und den Kanton Zürich (1) als Ganzes identifizieren werden. Ab 2021 wird das neue Berechnungsmodell angewendet. Für das Jahr 2020 wurde aus technischen Gründen keine Datenerhebung durchgeführt.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-05T00:00:00+01:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003321.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00003321.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>40705</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenreserven 2000 bis 2019 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Die Geschossflächenreserven zeigen das theoretische Potential an Geschossfläche auf, welches rechnerisch realisiert werden kann. Die Reserven werden in Wohnzonen, Mischzonen und Arbeitszonen unterteilt und zusätzlich in überbaute und nicht überbaute Bauzonen. Die Spalte «ARPNR» ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte «BFSNR» neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005244.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005244.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>808023</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenreserven 2000 bis 2019 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Die Geschossflächenreserven zeigen das theoretische Potential an Geschossfläche auf, welches rechnerisch realisiert werden kann. Die Reserven werden in Wohnzonen, Mischzonen und Arbeitszonen unterteilt und zusätzlich in überbaute und nicht überbaute Bauzonen. Mit der Spalte  «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005245.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005245.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>251813</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Ausbaugrad 2000 bis 2019 in %</dct:title>
+                        <dct:description xml:lang="de">Der Ausbaugrad gibt an, wie viel Prozent der zulässigen Geschossfläche innerhalb der überbauten Bauzone bereits bebaut wurde. Es wird zwischen Wohnzone, Mischzone und Arbeitszone unterschieden.  Die Spalte «ARPNR» ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte «BFSNR» neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Es können keine Totale aus den Werten gerechnet werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-18T00:00:00+01:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005246.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005246.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>368127</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Ausbaugrad 2000 bis 2019 in %</dct:title>
+                        <dct:description xml:lang="de">Der Ausbaugrad gibt an, wie viel Prozent der zulässigen Geschossfläche innerhalb der überbauten Bauzone bereits bebaut wurde. Es wird zwischen Wohnzone, Mischzone und Arbeitszone unterschieden. Mit der Spalte «GEO_LEVEL_LEVEL» «»können neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden. Es können keine Totale aus den Werten gerechnet werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005247.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005247.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>190243</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenbestand 2000 bis 2019 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Der Geschossflächenbestand gibt an, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Es wird unterschieden in Wohnzone, Mischzone und Arbeitszone sowie in Wohnen, Dienstleistung, Industrie, Landwirtschaft und Uebriges. Die Spalte &quot;ARPNR&quot; ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte &quot;BFSNR&quot; neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-16T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005248.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005248.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>681815</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Geschossflächenbestand 2000 bis 2019 in 1&#x27;000m2</dct:title>
+                        <dct:description xml:lang="de">Der Geschossflächenbestand gibt an, wie viel Geschossfläche innerhalb der Bauzone bereits realisiert wurde. Es wird unterschieden in Wohnzone, Mischzone und Arbeitszone. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte &quot;BFS_NR&quot; neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifizieren werden. Für die Generierung der Daten bis einschliesslich 2019 war das alte Berechnungsmodell im Einsatz.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-16T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005249.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001802_00005249.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
+                        <dcat:byteSize>199155</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+            </dcat:Dataset>
+        </dcat:dataset>
+        <dcat:dataset>
+            <dcat:Dataset>
+                <dct:identifier>test3@kim-organisation</dct:identifier>
+                <dct:title xml:lang="de">Test 3</dct:title>
+                <dct:description xml:lang="de">Mit der Nutzungsdichte wird aufgezeigt, wie viele Einwohner und Beschäftige pro Hektare Bauzone (Wohn-, Misch- und Arbeitszonen) durchschnittlich wohnen bzw. arbeiten. Es werden Daten auf Stufe Gemeinde, Planungsregion und für den Kanton Zürich als Ganzes bereitgestellt. Datenquellen sind die Einwohnerdaten des Statistischen Amts Kanton Zürich, Beschäftigtendaten des Bundesamts für Statistik (BFS) und die Nutzungszonen gemäss ÖREB-Kataster des Kantons Zürich.</dct:description>
+                <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-30T00:00:00+02:00</dct:issued>
+                <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-24T00:00:00+02:00</dct:modified>
+                <dct:publisher>
+                <foaf:Organization>
+                    <foaf:name>Amt für Raumentwicklung des Kantons Zürich</foaf:name>
+                </foaf:Organization>
+                </dct:publisher>
+                <dcat:contactPoint>
+                    <vcard:Organization>
+                        <vcard:fn>Amt für Raumentwicklung des Kantons Zürich, Raumplanung</vcard:fn>
+                        <vcard:hasEmail rdf:resource="mailto:raumbeobachtung@bd.zh.ch"/>
+                    </vcard:Organization>
+                </dcat:contactPoint>
+                <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+                <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+                <dct:language>de</dct:language>
+                <dct:relation>
+                    <rdf:Description rdf:about="https://www.zh.ch/de/planen-bauen/raumplanung/raumbeobachtung.html">
+                        <rdfs:label>Raumbeobachtung</rdfs:label>
+                    </rdf:Description>
+                </dct:relation>
+                <dcat:keyword xml:lang="de">raumentwicklung</dcat:keyword>
+                <dcat:keyword xml:lang="de">gemeinden</dcat:keyword>
+                <dct:temporal>
+                    <dct:PeriodOfTime>
+                        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-01-01</schema:startDate>
+                    </dct:PeriodOfTime>
+                </dct:temporal>
+                <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/YEARLY"/>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Einwohner und Beschäftigte pro Hektare ab 2012</dct:title>
+                        <dct:description xml:lang="de">Durchschnittliche Anzahl Einwohner und Beschäftigte pro Hektare überbaute Wohn-, Misch- und Arbeitszonen im Kanton Zürich. Die Spalte &quot;ARPNR&quot; ist eine kantonsinterne Nummerierung, um im Vergleich zur Spalte &quot;BFSNR&quot; neben den Gemeinden und Städten zusätzlich auch die Regionen und den Kanton Zürich als Ganzes identifizieren zu können. Bei der Berechnung der Werte wurden Wohn-, Misch- und Arbeitszonen auf Stufe Gemeinde im Umfang von weniger als 2 Hektare nicht berücksichtigt.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-30T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002622_00005363.xlsx"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002622_00005363.xlsx</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:license>
+                        <dcat:byteSize>416621</dcat:byteSize>
+                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+                <dcat:distribution>
+                    <dcat:Distribution>
+                        <dct:title xml:lang="de">Einwohner und Beschäftigte pro Hektare ab 2012</dct:title>
+                        <dct:description xml:lang="de">Durchschnittliche Anzahl Einwohner und Beschäftigte pro Hektare überbaute Wohn-, Misch- und Arbeitszonen im Kanton Zürich. Mit der Spalte «GEO_LEVEL_LEVEL» können im Vergleich zur Spalte «BFS_NR» neben den Gemeinden und Städten (3) zusätzlich auch die Regionen (6), die Bezirke (2) und der Kanton Zürich (1) als Ganzes identifiziert werden Die Spalte GEBIET_NAME beinhaltet sowohl Gemeinden, Städte, Regionen als auch den ganzen Kanton Zürich. Bei der Berechnung der Werte wurden Wohn-, Misch- und Arbeitszonen auf Stufe Gemeinde im Umfang von weniger als 2 Hektare nicht berücksichtigt.</dct:description>
+                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-30T00:00:00+02:00</dct:issued>
+                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-22T00:00:00+02:00</dct:modified>
+                        <dct:language>de</dct:language>
+                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002622_00005364.csv"/>
+                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00002622_00005364.csv</dcat:downloadURL>
+                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceNotRequired</dct:license>
+                        <dcat:byteSize>186350</dcat:byteSize>
+                        <dcat:mediaType>text/csv</dcat:mediaType>
+                    </dcat:Distribution>
+                </dcat:distribution>
+            </dcat:Dataset>
+        </dcat:dataset>
+        
+    </dcat:Catalog>
+</rdf:RDF>
