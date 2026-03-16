@@ -21,11 +21,6 @@
                 </dcat:contactPoint>
                 <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
                 <dct:language>de</dct:language>
-                <dct:relation>
-                    <rdf:Description rdf:about="https://openzh.github.io/starter-code-openZH/">
-                        <rdfs:label>Vorbereiteter Code in R oder Python für jedes Dataset mit csv-Datei(en)</rdfs:label>
-                    </rdf:Description>
-                </dct:relation>
                 <dcat:keyword xml:lang="de">bauzonen</dcat:keyword>
                 <dcat:keyword xml:lang="de">raumentwicklung</dcat:keyword>
                 <dct:temporal>
@@ -34,9 +29,6 @@
                     </dct:PeriodOfTime>
                 </dct:temporal>
                 <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/YEARLY"/>
-                <rdfs:seeAlso>1802@are-kanton-zuerich</rdfs:seeAlso>
-                <rdfs:seeAlso>2622@are-kanton-zuerich</rdfs:seeAlso>
-                <rdfs:seeAlso>2982@statistisches-amt-kanton-zuerich</rdfs:seeAlso>
                 <dcat:distribution>
                     <dcat:Distribution>
                         <dct:title xml:lang="de">Überbauungsgrad ab 1991 in %</dct:title>
@@ -191,7 +183,6 @@
                     </dct:PeriodOfTime>
                 </dct:temporal>
                 <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/YEARLY"/>
-                <rdfs:seeAlso>1120@are-kanton-zuerich</rdfs:seeAlso>
                 <dcat:distribution>
                     <dcat:Distribution>
                         <dct:title xml:lang="de">Geschossflächenreserven ab 2021 in 1&#x27;000m2</dct:title>
