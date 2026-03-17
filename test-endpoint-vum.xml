@@ -3,7 +3,7 @@
     <dcat:Catalog>
         <dcat:dataset>
             <dcat:Dataset>
-                <dct:identifier>test1@kim-organisation</dct:identifier>
+                <dct:identifier>test1-changed@kim-organisation</dct:identifier>
                 <dct:title xml:lang="de">Test 1</dct:title>
                 <dct:description xml:lang="de">Description1</dct:description>
                 <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
