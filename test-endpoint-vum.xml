@@ -3,60 +3,7 @@
     <dcat:Catalog>
         <dcat:dataset>
             <dcat:Dataset>
-                <dct:identifier>test1-changed@kim-organisation</dct:identifier>
-                <dct:title xml:lang="de">Test 1</dct:title>
-                <dct:description xml:lang="de">Description1</dct:description>
-                <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
-                <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-17T15:12:07.424077+01:00</dct:modified>
-                <dct:publisher>
-                <foaf:Organization>
-                    <foaf:name>Amt für Raumentwicklung des Kantons Zürich</foaf:name>
-                </foaf:Organization>
-                </dct:publisher>
-                <dcat:contactPoint>
-                    <vcard:Organization>
-                        <vcard:fn>Amt für Raumentwicklung des Kantons Zürich, Raumplanung</vcard:fn>
-                        <vcard:hasEmail rdf:resource="mailto:raumbeobachtung@bd.zh.ch"/>
-                    </vcard:Organization>
-                </dcat:contactPoint>
-                <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
-                <dct:language>de</dct:language>
-                <dcat:keyword xml:lang="de">bauzonen</dcat:keyword>
-                <dcat:keyword xml:lang="de">raumentwicklung</dcat:keyword>
-                <dct:temporal>
-                    <dct:PeriodOfTime>
-                        <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-01-01</schema:startDate>
-                    </dct:PeriodOfTime>
-                </dct:temporal>
-                <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/YEARLY"/>
-                <dcat:distribution>
-                    <dcat:Distribution>
-                        <dct:title xml:lang="de">Ueberbauungsgrad ab 1991</dct:title>
-						<dct:description xml:lang="de">description a</dct:description>
-                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
-                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
-                        <dct:language>de</dct:language>
-                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002158.xlsx"/>
-                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002158.xlsx</dcat:downloadURL>
-                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
-                        <dcat:byteSize>670198</dcat:byteSize>
-                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
-                    </dcat:Distribution>
-                </dcat:distribution>
-                <dcat:distribution>
-                    <dcat:Distribution>
-                        <dct:title xml:lang="de">Bauzonenverbrauch ab 1991 in ha</dct:title>
-                        <dct:description xml:lang="de">description b</dct:description>
-                        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-02-15T00:00:00+01:00</dct:issued>
-                        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-30T00:00:00+02:00</dct:modified>
-                        <dct:language>de</dct:language>
-                        <dcat:accessURL rdf:resource="https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002159.xlsx"/>
-                        <dcat:downloadURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://daten.statistik.zh.ch/ogd/daten/ressourcen/KTZH_00001120_00002159.xlsx</dcat:downloadURL>
-                        <dct:license>NonCommercialAllowed-CommercialAllowed-ReferenceRequired</dct:license>
-                        <dcat:byteSize>941334</dcat:byteSize>
-                        <dcat:mediaType>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</dcat:mediaType>
-                    </dcat:Distribution>
-                </dcat:distribution>
+                <dct:identifier>test1-changed@kim-oorganisation</dct:identifier>
             </dcat:Dataset>
         </dcat:dataset>
     </dcat:Catalog>
