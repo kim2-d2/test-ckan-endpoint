@@ -3,7 +3,7 @@
     <dcat:Catalog>
         <dcat:dataset>
             <dcat:Dataset>
-                <dct:identifier>test1-changed@kim-oorganisation</dct:identifier>
+                <dct:identifier>test1-changed@kim-organisation</dct:identifier>
             </dcat:Dataset>
         </dcat:dataset>
     </dcat:Catalog>
